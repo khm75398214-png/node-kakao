@@ -32,8 +32,8 @@ CLIENT.on('switch_server', () => {
 async function getLoginData(): Promise<api.LoginData> {
   const api = await AuthApiClient.create(DEVICE_NAME, DEVICE_UUID);
   const loginRes = await api.login({
-    email: EMAIL,
-    password: PASSWORD,
+    email: kimgaon141414@gmail.com,
+    password: Kimgaon14,
     forced: true,
   });
   if (!loginRes.success) throw new Error(`Web login failed with status: ${loginRes.status}`);

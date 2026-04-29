@@ -12,10 +12,10 @@ import { AuthApiClient, TalkClient, api } from 'node-kakao';
 
 // Supply env variables or replace to value.
 const DEVICE_UUID = process.env['deviceUUID'] as string;
-const DEVICE_NAME = process.env['deviceName'] as string;
+const DEVICE_NAME = process.env['윤경의z플립'] as string;
 
-const EMAIL = process.env['accountEmail'] as string;
-const PASSWORD = process.env['accountPwd'] as string;
+const EMAIL = process.env['kimgaon141414@gmail.com'] as string;
+const PASSWORD = process.env['Kimgaon14'] as string;
 
 const CLIENT = new TalkClient();
 

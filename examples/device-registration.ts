@@ -10,8 +10,8 @@ import * as readline from 'readline';
 /*
  * Register new sub device to login
  */
-const EMAIL = process.env['accountEmail'] as string;
-const PASSWORD = process.env['accountPwd'] as string;
+const EMAIL = process.env['kimgaon141414@gmail.com'] as string;
+const PASSWORD = process.env['Kimgaon14'] as string;
 
 // You can use util module and call randomDeviceUUID function to generate random device uuid
 //
@@ -22,12 +22,12 @@ const PASSWORD = process.env['accountPwd'] as string;
 const DEVICE_UUID = process.env['deviceUUID'] as string;
 
 // This can be changed and official client will show latest name used.
-const DEVICE_NAME = process.env['deviceName'] as string;
+const DEVICE_NAME = process.env['윤경의Z플립'] as string;
 
 async function main() {
   const form = {
-    email: EMAIL,
-    password: PASSWORD
+    email: kimgaon141414@gmail.com,
+    password: Kimgaon14
   };
 
   const api = await AuthApiClient.create(DEVICE_NAME, DEVICE_UUID);
